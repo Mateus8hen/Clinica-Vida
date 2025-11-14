@@ -11,14 +11,15 @@ if st.session_state.role != "Secretaria":
     st.warning("⚠️ Acesso negado.")
     st.stop()
 
-def Verificarconsulta(A, B, C, D):
+
+def verificarConsulta(A, B, C, D):
 
     AND1 = A and B and C
     ADD2 = B and C and D
     return (AND1 or ADD2)
 
 
-def Emergencia(E, F, G):
+def emergencia(E, F, G):
     OR = E and (F or G)
     return (OR)
 
@@ -30,7 +31,7 @@ C = st.checkbox("Há disponibilidade de médicos")
 D = st.checkbox("Pagementos estão em dia")
 
 if st.button("Verificar Agendamento"):
-    Pode_consultar = Verificarconsulta(A, B, C, D)
+    Pode_consultar = verificarConsulta(A, B, C, D)
     if Pode_consultar:
         st.success("Liberado para a consulta.")
     else:
@@ -45,7 +46,7 @@ G = st.checkbox("Pagemento em dia")
 
 
 if st.button("Checar Emergência"):
-    Emergencia_consulta = Emergencia(E, F, G)
+    Emergencia_consulta = emergencia(E, F, G)
     if Emergencia_consulta:
         st.success("Consulta de emergência autorizada.")
     else:

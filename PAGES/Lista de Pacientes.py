@@ -29,7 +29,7 @@ if buscar_pacientes:
         st.info("Nenhum paciente cadastrado ainda.")
 
 
-def carregar_pacientes():
+def carregar_Pacientes():
     pacientes = []
     try:
         with open("pacientes.txt", "r", encoding="utf8") as file:
@@ -42,19 +42,19 @@ def carregar_pacientes():
     return pacientes
 
 
-st.dataframe(carregar_pacientes())
+st.dataframe(carregar_Pacientes())
 
 
-def contar_pacientes():
-    pacientes = carregar_pacientes()
+def contar_Pacientes():
+    pacientes = carregar_Pacientes()
     return len(pacientes)
 
 
-st.write("Pacientes cadastrados: ", contar_pacientes())
+st.write("Pacientes cadastrados: ", contar_Pacientes())
 
 
 def calcular_idade_media():
-    pacientes = carregar_pacientes()
+    pacientes = carregar_Pacientes()
     if not pacientes:
         return 0
     idades = [int(p["Idade"]) for p in pacientes]
@@ -65,7 +65,7 @@ st.write("Idade média dos pacientes: ",
          f"{calcular_idade_media():.0f} anos")
 
 
-pacientes = carregar_pacientes()
+pacientes = carregar_Pacientes()
 idade_corte = 30
 
 pacientes_mais_velhos = [
