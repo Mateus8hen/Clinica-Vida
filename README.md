@@ -34,7 +34,7 @@ Liste as principais características e o que o seu sistema é capaz de fazer.
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Back-end:** Python (streamlit)
+* **Back-end:** Python (Streamlit)
 
 
 ## 🚀 Como Rodar o Projeto
@@ -46,4 +46,4 @@ Instalar streamlit utilizando o terminal e digitanto **pip install streamlit** a
 O que é necessário ter instalado na máquina?
 
 * [Python](https://www.python.org/)
-* [streamlit](https://docs.streamlit.io/get-started/installation/command-line)
+* [Streamlit](https://docs.streamlit.io/get-started/installation/command-line)
