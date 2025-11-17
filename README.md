@@ -34,8 +34,7 @@ Liste as principais características e o que o seu sistema é capaz de fazer.
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Back-end:** Python (Streamlit)
-
+Python (Streamlit)
 
 ## 🚀 Como Rodar o Projeto
 
