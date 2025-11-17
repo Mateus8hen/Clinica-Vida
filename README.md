@@ -1,4 +1,4 @@
-# 🎓 Projeto CLinica +Vida
+# 🎓 Projeto Clinica +Vida
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Concluído-blue" alt="Status: Concluído">
