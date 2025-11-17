@@ -44,12 +44,6 @@ def logout():
         st.rerun()
 
 
-if st.session_state.role == "Visitante":
-    login()
-else:
-    st.subheader(f"Bem-vindo, {st.session_state.role}!")
-    logout()
-
 st.markdown("""
 <style>
 .stButton > button {
