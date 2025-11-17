@@ -78,3 +78,12 @@ if st.session_state.fila_atendimento:
         st.warning("Por favor, selecione um paciente para remover.")
 else:
     st.info("")
+    
+def logout():
+
+    if st.button("Logout"):
+        st.session_state.role = "Visitante"
+        st.success("Logout realizado.")
+        st.rerun()
+
+logout()

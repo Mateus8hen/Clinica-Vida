@@ -52,6 +52,16 @@ if st.button("Checar Emergência"):
     else:
         st.warning("Consulta de emergência não autorizada.")
 
+st.divider()
+
+def logout():
+
+    if st.button("Logout"):
+        st.session_state.role = "Visitante"
+        st.success("Logout realizado.")
+        st.rerun()
+
+logout()
 
 st.markdown("""
 <style>
@@ -70,5 +80,7 @@ st.markdown("""
     background-color: #228B22 ;
     display:  none;
 }
+            
+
 </style>
 """, unsafe_allow_html=True)

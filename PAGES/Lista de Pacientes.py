@@ -83,3 +83,6 @@ def logout():
         st.session_state.role = "Visitante"
         st.success("Logout realizado.")
         st.rerun()
+
+
+logout()

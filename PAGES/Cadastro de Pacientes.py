@@ -29,3 +29,11 @@ if st.button("Cadastrar Paciente"):
         with open("pacientes.txt", "a", encoding="utf8") as file:
             file.write(f"{nome}, {idade}, {telefone}\n")
         st.success(f"Paciente {nome} cadastrado com sucesso!")
+def logout():
+
+    if st.button("Logout"):
+        st.session_state.role = "Visitante"
+        st.success("Logout realizado.")
+        st.rerun()
+
+logout()
