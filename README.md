@@ -8,7 +8,6 @@
 <p align="center">
  <a href="#-descrição-do-projeto">Descrição</a> •
  <a href="#-funcionalidades">Funcionalidades</a> • 
- <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
  <a href="#-como-rodar-o-projeto">Como Rodar</a> • 
 
 </p>
