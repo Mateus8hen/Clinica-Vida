@@ -19,10 +19,10 @@
 
 ## 📖 Descrição do Projeto
 
-Projeto de totalmente em python, simulando uma clinica com atentediemnto ao cliente consultas, cadastro e calculo de pacientes, atendimento agendado e atendimento de consulta
-podendo ter implantoçõe de nova funcionalidades.
+Projeto de totalmente em python, simulando uma clinica com atendimento aos clientes com consultas, cadastro e calculo de pacientes, atendimento agendado e atendimento de consulta emergência
+podendo ter implantoções de nova funcionalidades.
 
-"Este projeto foi desenvolvido para o curso de Analise e Desenvolvimento de Sistemas da Faculdade Anhanguera.
+Este projeto foi desenvolvido para o curso de Analise e Desenvolvimento de Sistemas da Faculdade Anhanguera.
 
 ## ✨ Funcionalidades
 
