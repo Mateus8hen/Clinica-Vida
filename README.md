@@ -38,7 +38,10 @@ Python (Streamlit)
 
 ## 🚀 Como Rodar o Projeto
 
-Instalar streamlit utilizando o terminal e digitanto **pip install streamlit** após isso para rodar basta digita **Streamlit run Login.py**  
+Instalar streamlit utilizando o terminal e digitanto 
+**pip install streamlit** 
+após isso para rodar digita 
+**Streamlit run Login.py**  
 
 ### Pré-requisitos
 
